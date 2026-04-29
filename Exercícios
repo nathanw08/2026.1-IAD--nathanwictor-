@@ -1,2 +1,2 @@
-input('nathan')
-print('olá,nathan')
+nome = input("nathan")
+print("olá,natha")
