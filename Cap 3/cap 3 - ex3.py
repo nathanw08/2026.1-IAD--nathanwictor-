@@ -1,5 +1,4 @@
 try:
-    
     entrada = input("Digite a Pontuação: ")
     pontuacao = float(entrada)
 
