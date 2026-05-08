@@ -1,0 +1,20 @@
+def calculoPagamento(horas, taxaHora):
+    if horas > 40:
+        horas_normais = 40
+        horas_extras = horas - 40
+        pagamento = (horas_normais * taxaHora) + (horas_extras * taxaHora * 1.5)
+    else:
+        pagamento = horas * taxaHora
+    
+    return pagamento
+
+try:
+    h_digitadas = float(input("Insira as Horas: "))
+    t_digitada = float(input("Insira o valor da Hora de Trabalho: "))
+
+    resultado = calculoPagamento(h_digitadas, t_digitada)
+
+    print(f"pagamento: {resultado}")
+
+except:
+    print("Erro, por favor utilize uma entrada numérica")
