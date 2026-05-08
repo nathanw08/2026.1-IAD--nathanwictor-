@@ -20,5 +20,5 @@ try:
         print("F")
 
 except:
-    # Captura entradas que não são números (ex: "perfeito")
+    # entradas que não são números (ex: "perfeito")
     print("Pontuação Inválida")

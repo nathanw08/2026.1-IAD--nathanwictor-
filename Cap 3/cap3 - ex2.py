@@ -1,5 +1,4 @@
 try:
-
     horas = float(input("Digite as Horas: "))
     taxa = float(input("Digite a taxa: "))
 
@@ -11,5 +10,4 @@ try:
     print(f"Pagamento: {pagamento}")
 
 except:
-    
     print("Erro, por favor utilize uma entrada numérica")

@@ -11,5 +11,5 @@ else:
     
     pagamento = horas * taxa
 
-# Saída do resultado
+# resultado
 print(f"Pagamento: {pagamento}")
